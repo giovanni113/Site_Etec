@@ -1,3 +1,62 @@
-h1, h2, h3, h4 {
-    background-color:  #0066ff;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+
+
+@font-face {
+    font-family: ;
+    src: url(fonts/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: ;
+    src: url()
+}
+
+table, th, td, tr {
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.menu{
+    text-align: center;
+    background-color: #0b6d8d;
+}
+
+.hover {
+    display: inline-block;
+    list-style: none;
+    border: 2px;
+    border-color: #0b6d8d;
+    background-color: #0b6d8d;
+    font-family: Roboto;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.hover:hover {
+    background-color: #07495f;
+    cursor: pointer;
+}
+
+ a {
+     text-decoration: none;
+     color: whitesmoke;
+ }
+
+ .logo_etecia {
+     margin-top: 30px;
+     margin-bottom: 25px;
+ }
+
+ .principal {
+     width: 68%;
+     margin: auto;
+ }
+
+
