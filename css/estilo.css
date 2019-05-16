@@ -6,7 +6,7 @@
 
 
 @font-face {
-    font-family: ;
+    font-family: Roboto;
     src: url(fonts/Roboto/Roboto-Regular.ttf)
 }
 
@@ -15,15 +15,19 @@
     src: url()
 }
 
+table {
+	border-collapse: collapse;
+}
+
 table, th, td, tr {
-    border-width: 1px;
-    border-color: black;
-    border-style: ridge;
+    border-width: 3px;
+    border-color: white;
+	background-color: #0b6d8d;
 }
 
 .menu{
     text-align: center;
-    background-color: #0b6d8d;
+    background-image: linear-gradient(#0e92be,#0b6d8d,#0c80a6)
 }
 
 .hover {
@@ -58,5 +62,13 @@ table, th, td, tr {
      width: 68%;
      margin: auto;
  }
+ 
+th {
+	border: 0px #0b6d8d;
+	background-color: #0b6d8d;
+	padding: 20px;
+	font: 24px;
+	font-family: Roboto;
+	color: #fff;
 
 
