@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: ;
-    src: url()
+    font-family: Roboto Slab;
+    src: url(RobotoSlab-Regular.ttf)
 }
 
 table {
@@ -41,9 +41,10 @@ table, th, td, tr {
     padding-left: 25px;
     padding-right: 25px;
     font-size: 16px;
-	text-shadow: 1px 1px #000000;
-	border-left: 1px #10a4d5;
-	border-right: 1px #10a4d5;
+    text-shadow: 1px 1px #000000;
+    border-left-style: solid;
+    border-left-color: #0e92be;
+    border-left-width: 1px;
 }
 
 .hover:hover {
@@ -72,6 +73,21 @@ th {
 	padding: 20px;
 	font: 24px;
 	font-family: Roboto;
-	color: #fff;
+    color: #fff;
+}
+
+input {
+    background-color: #0b6d8e;
+    border-image: -webkit-linear-gradient(#000000 .4);
+    border-radius: 6px;
+    padding: 2px;
+    margin-left: 60px;
+    opacity: 30%;
+}
+
+::placeholder {
+    color:  #cccccc;
+}
+    
 
 
