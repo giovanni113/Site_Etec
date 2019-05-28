@@ -22,22 +22,26 @@ table {
     font-family: Roboto;
     color: black;
     border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th {
+    text-align: left;
     background-color: #0b6d8d;
     border-color: #0b6d8d;
     border-style: solid;
     border-width: 2px;
     font-family: Roboto;
-    color: black;
+    color: whitesmoke;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-bottom: 7px;
 }
 
 tr {
     background-color: rgb(230, 229, 229);
-    border-left-color: rgb(199, 199, 199);
+    border-right-color: rgb(199, 199, 199);
     border-style: solid;
     border-width: 2px;
     font-family: Roboto;
@@ -45,8 +49,10 @@ tr {
 }
 
 td {
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(230, 229, 229);
-    border-left-color: rgb(199, 199, 199);
+    border-right-color: rgb(199, 199, 199);
     border-style: solid;
     border-width: 2px;
     font-family: Roboto;
@@ -54,7 +60,7 @@ td {
 }
 
 .tableli {
-    margin-left: 30px;
+    margin-left: 10px;
     font-family: Roboto;
     color: black;
 }
@@ -63,6 +69,10 @@ td {
     background-image: linear-gradient( #0e92be,#0c80a6,#0b6d8d);
     width: 100%;
     text-align: left;
+}
+
+.cselec {
+    text-align: center;
 }
 
 .container-for-li {
@@ -87,15 +97,69 @@ td {
     border-left-width: 1px;
 }
 
+.hover2 {
+    display: inline-block;
+    list-style: none;
+    border: 2px;
+    border-color: #0b6d8d;
+    background-image: linear-gradient( #0e92be,#0c80a6,#0b6d8d);
+    font-family: Arial;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15,5px;
+    text-shadow: 1px 1px #000000;
+    border-radius: 1px 100px;
+    box-shadow: 7px 7px 7px;
+    margin-bottom: 25px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 77%;
+    border: 2px;
+    border-color: #0b6d8d;
+    background-image: linear-gradient( #0e92be,#0c80a6,#0b6d8d);
+    font-family: Arial;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    border-left-style: solid;
+    border-left-color: #0e92be;
+    border-left-width: 1px;
+    border-radius: 5px;
+}
+
 .hover:hover {
     background-image: linear-gradient(#07495f,#07495f,#07495f);
     cursor: pointer;
 }
 
+.hover2:hover {
+    background-image: linear-gradient(#07495f,#07495f,#07495f);
+    cursor: pointer;
+}
+ button:hover {
+    background-image: linear-gradient(#07495f,#07495f,#07495f);
+    cursor: pointer;
+ }
+
  .hover a {
      text-decoration: none;
      color: whitesmoke;
  }
+
+ .hover2 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
  .logo_etecia {
      margin-top: 30px;
@@ -104,6 +168,11 @@ td {
 
  .principal {
      width: 68%;
+     margin: auto;
+ }
+
+ .principal1 {
+     width: 75%;
      margin: auto;
  }
 
@@ -118,13 +187,40 @@ input {
     -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
     padding: 4px;
-    margin-left: 355px;
+    margin-left: 30%;
     color: rgba(223, 223, 223, 0.3);
 }
 
 ::placeholder {
     color: rgba(243, 243, 243, 0.8);
 }
+
+h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 35px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#eteciaimg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 
 
 
